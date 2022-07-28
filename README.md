@@ -2,4 +2,6 @@
 
 A group project, the task was to develop a library for banking operations
 
-my part of the project was unit tests
+My part of the project was unit tests
+
+To run the program, you need to write `make` on the command line
