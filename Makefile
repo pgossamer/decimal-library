@@ -40,11 +40,6 @@ gcov_report:
 	genhtml -o report _test.info
 	open report/index.html
 
-cpplint:
-	cp ../materials/linters/CPPLINT.cfg .
-	python3 ../materials/linters/cpplint.py --extensions=c *.c
-	python3 ../materials/linters/cpplint.py --extensions=c *.h
-
 clean:
 	rm -f *.o test *.a
 	rm -rf *.gcno *.gcda _test *.info
